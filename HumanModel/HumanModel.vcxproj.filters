@@ -18,12 +18,57 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tissue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lungs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bladder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Colon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Intestines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stomach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="HumanModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tissue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Colon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blood.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Intestines.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stomach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bladder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
