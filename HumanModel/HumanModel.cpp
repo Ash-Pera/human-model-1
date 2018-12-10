@@ -8,7 +8,7 @@
 
 int main()
 {
-	Human ash = Human("ash");
+	Human ash = Human("ash", 10);
 
 	ash.tissue.printHumanName();
 

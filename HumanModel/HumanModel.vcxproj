@@ -159,6 +159,7 @@
     <ClInclude Include="Lungs.h" />
     <ClInclude Include="Organ.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="PhysicalProperties.h" />
     <ClInclude Include="Stomach.h" />
     <ClInclude Include="Tissue.h" />
     <ClInclude Include="Types.h" />
