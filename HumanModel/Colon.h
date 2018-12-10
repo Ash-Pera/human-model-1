@@ -1,8 +1,12 @@
 #pragma once
-#include "human.h"
+#include "Types.h"
+
+class Human;
 
 class Colon {
-	Human* human;
+	const Human* human;
+	Mass Poo;
+	Mass water;
 public:
 	Colon(Human* human);
 	Colon();

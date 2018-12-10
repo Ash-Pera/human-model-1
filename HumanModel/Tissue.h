@@ -1,8 +1,10 @@
 #pragma once
+#include "Types.h"
 
 class Human;
 class Tissue {
-	Human* human;
+	const Human* human;
+	Mass fat;
 public:
 	Tissue(Human* human);
 	Tissue();

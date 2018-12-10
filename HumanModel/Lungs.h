@@ -1,9 +1,12 @@
 #pragma once
+#include "Types.h"
 
 class Human;
 
 class Lungs {
-	Human* human;
+	const Human* human;
+	Mass CO2;
+	Mass O2;
 public:
 	Lungs(Human* human);
 	Lungs();
