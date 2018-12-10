@@ -15,4 +15,8 @@ public:
 	Blood(Human* human);
 	Blood();
 	~Blood();
+
+	/* if dissolved_CO2 >
+	 * id dissolved_waste >
+	*/
 };

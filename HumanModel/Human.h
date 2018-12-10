@@ -9,17 +9,22 @@
 #include <string>
 
 class Human {
+	bool isAlive;
 public:
-	/*Bladder bladder;
+	Bladder bladder;
 	Blood blood;
 	Colon colon;
 	Intestines intestsines;
 	Lungs lungs;
-	Stomach stomach;*/
+	Stomach stomach;
 	Tissue tissue;
 	std::string name;
 
 	Human(std::string name);
 	~Human();
+
+	void kill() {
+		isAlive = false;
+	};
 };
 

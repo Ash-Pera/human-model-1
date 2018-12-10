@@ -5,7 +5,7 @@ class Human;
 
 class Colon {
 	const Human* human;
-	Mass Poo;
+	Mass poo;
 	Mass water;
 public:
 	Colon(Human* human);
