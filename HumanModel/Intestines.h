@@ -1,14 +1,13 @@
 #pragma once
 #include "Types.h"
+#include "Organ.h"
 
 class Human;
 
-class Intestines {
-	const Human* human;
+class Intestines: Organ{
 	Mass food;
 	Mass water;
 public:
-	Intestines(Human* human);
-	Intestines();
-	~Intestines();
+	Intestines() : Organ() {};
+	Intestines(Human* human) : Organ(human) {};
 };

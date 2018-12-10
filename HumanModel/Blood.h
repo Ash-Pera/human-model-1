@@ -1,20 +1,19 @@
 #pragma once
 #include "Types.h"
+#include "Organ.h"
 
 class Human;
 
-class Blood {
+class Blood: Organ {
 private:
-	const Human* human;
 	Mass dissolved_CO2;
 	Mass dissolved_O2;
 	Mass dissolved_glucose;
 	Mass dissolved_water;
 	Mass dissolved_waste;
 public:
-	Blood(Human* human);
-	Blood();
-	~Blood();
+	Blood() : Organ() {};
+	Blood(Human* human) : Organ(human) {};
 
 	/* if dissolved_CO2 >
 	 * id dissolved_waste >

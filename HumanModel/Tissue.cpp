@@ -2,18 +2,8 @@
 #include "Tissue.h"
 #include "Human.h"
 
+#include <iostream>
 
-
-
-Tissue::Tissue(Human* human) {
-	this->human = human;
-}
-
-
-Tissue::Tissue() {
-	this->human = NULL;
-}
-
-Tissue::~Tissue()
-{
+void Tissue::printHumanName() {
+	std::cout << this->human->name;
 }

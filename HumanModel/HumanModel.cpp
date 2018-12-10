@@ -10,6 +10,8 @@ int main()
 {
 	Human ash = Human("ash");
 
+	ash.tissue.printHumanName();
+
     std::cout << "Hello World!\n"; 
 }
 
