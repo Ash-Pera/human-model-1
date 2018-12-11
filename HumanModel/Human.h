@@ -20,7 +20,7 @@ public:
 	Tissue tissue;
 	std::string name;
 
-	Human(std::string name, Volume lung_volume = 2.4);
+	Human(std::string name, Volume lung_volume = 2.4, Volume blood_amount = 5.2);
 	~Human();
 
 	void kill() {
