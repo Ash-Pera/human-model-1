@@ -44,6 +44,8 @@ public:
 	/* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5380556/
 	 * 0.055 to 0.085 atm blood produces (severe) symptoms
 	 * 14.1% to 26% environs -> death
+	 * 0.20 atm CO2?
 	 */
-	static constexpr double FATAL_CO2_CONCENTRATION = 0.20;
+	// grams per liter
+	static constexpr double FATAL_CO2_CONCENTRATION = 0.3603;
 };
