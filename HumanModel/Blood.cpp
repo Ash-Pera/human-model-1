@@ -26,3 +26,24 @@ double Blood::waste_concentration()
 {
 	return this->dissolved_waste / this->amount_of_blood;
 }
+
+bool Blood::pull_glucose(Mass mass_glucose)
+{
+	if (this->dissolved_glucose >= mass_glucose) {
+		this->dissolved_glucose -= mass_glucose;
+		return true;
+	} else {
+		return false;
+	}
+}
+
+bool Blood::pull_O2(Mass mass_O2)
+{
+	if (this->dissolved_O2 >= mass_O2) {
+		this->dissolved_O2 -= mass_O2;
+		return true;
+	}
+	else {
+		return false;
+	}
+}

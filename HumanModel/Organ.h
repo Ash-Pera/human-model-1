@@ -3,7 +3,7 @@
 class Human;
 class Organ {
 public:
-	const Human* human;
+	Human* human;
 	Organ();
 	Organ(Human* human);
 	~Organ();

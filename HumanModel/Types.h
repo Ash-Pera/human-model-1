@@ -11,3 +11,6 @@ typedef double Volume;
 
 //kelvins
 typedef double Temperature;
+
+//kilajoules
+typedef double Energy;

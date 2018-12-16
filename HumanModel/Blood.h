@@ -25,7 +25,11 @@ public:
 	double water_concentration();
 	double waste_concentration();
 
+	bool pull_glucose(Mass mass_glucose);
+	bool pull_O2(Mass mass_O2);
 
+	void push_CO2(Mass mass_CO2);
+	void push_water(Mass mass_water);
 
 	/* if CO2_concentration > dies
 	 * if waste_concentration > dies
@@ -44,8 +48,7 @@ public:
 	/* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5380556/
 	 * 0.055 to 0.085 atm blood produces (severe) symptoms
 	 * 14.1% to 26% environs -> death
-	 * 0.20 atm CO2?
-	 */
+	 * 0.20 atm CO2? */
 	// grams per liter
 	static constexpr double FATAL_CO2_CONCENTRATION = 0.3603;
 };
